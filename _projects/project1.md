@@ -1,6 +1,6 @@
 ---
 title: "Brown dwarfs"
-collection: project
+collection: projects
 type: "Undergraduate course"
 permalink: /projects/project1
 <!-- venue: "University 1, Department"
