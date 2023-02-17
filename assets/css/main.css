@@ -1492,7 +1492,7 @@ input, select, textarea {
 		padding: 15px 25px 15px 25px;
 		background-color: #007b9d;
 		border-radius: 10px;
-		text-transform: lowercase;
+		text-transform: capitalize;
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;
@@ -1623,8 +1623,8 @@ input, select, textarea {
 			margin: 0.5em 0 0 0;
 			font-size: 1.6em;
 			color: #fff;
-			letter-spacing: -1px;
-			text-transform: lowercase;
+			letter-spacing: 1px;
+			text-transform: capitalize;
 			opacity: 0.8;
 		}
 
@@ -1981,7 +1981,7 @@ input, select, textarea {
 
 				#banner span {
 					font-size: 1.25em;
-					letter-spacing: -1px;
+					letter-spacing: 1px;
 					line-height: 1.25em;
 				}
 
