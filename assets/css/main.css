@@ -91,7 +91,7 @@ input, select, textarea {
 		background-color: #e3e9dc;
 		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
-		letter-spacing: -1px;
+		letter-spacing: 1px;
 	}
 
 	h1, h2, h3, h4 {
@@ -100,13 +100,13 @@ input, select, textarea {
 	}
 
 	h1 {
-		text-transform: lowercase;
+		text-transform: capitalize;
 	}
 
 	h2 {
-		text-transform: lowercase;
+		text-transform: capitalize;
 		font-size: 1.6em;
-		letter-spacing: -1px;
+		letter-spacing: 1px;
 		margin-bottom: 1em;
 	}
 
