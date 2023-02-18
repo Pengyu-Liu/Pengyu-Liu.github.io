@@ -86,12 +86,12 @@ input, select, textarea {
 	}
 
 	body {
-		font-size: 13.5pt;
+		font-size: 17pt;
 		font-family: sans-serif;
 		background-color: #e3e9dc;
 		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
-		letter-spacing: 1px;
+		letter-spacing: 0px;
 	}
 
 	h1, h2, h3, h4 {
@@ -104,7 +104,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		text-transform: capitalize;
+		/* text-transform: capitalize; */
 		font-size: 1.6em;
 		letter-spacing: 1px;
 		margin-bottom: 1em;
@@ -1610,10 +1610,10 @@ input, select, textarea {
 	}
 
 		#banner h2 {
-			font-size: 3.3em;
+			font-size: 3em;
 			color: #fff;
 			text-align: center;
-			letter-spacing: -2px;
+			letter-spacing: 1px;
 			margin: 0;
 		}
 
@@ -1632,13 +1632,14 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		padding: 4em 0;
+		padding: 3em 0;
 	}
 
 /* Footer */
 
 	#footer-wrapper {
-		padding: 4em 0;
+		height: 2em;
+		padding: 0.5em 0;
 	}
 
 /* Copyright */
@@ -1647,8 +1648,8 @@ input, select, textarea {
 		text-align: center;
 		color: #A6A88F;
 		border-top: solid 1px #ced0b7;
-		padding: 3em 0 0 0;
-		margin: 3em 0 0 0;
+		padding: 0.5em 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 		#copyright a {
@@ -1676,7 +1677,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 2em;
+					font-size: 1.6em;
 					line-height: 76px;
 				}
 
@@ -1697,7 +1698,7 @@ input, select, textarea {
 			}
 
 				#banner h2 {
-					font-size: 3em;
+					font-size: 2em;
 				}
 
 				#banner span {
@@ -1707,13 +1708,14 @@ input, select, textarea {
 		/* Footer */
 
 			#footer-wrapper {
+				height: 40px;
 				padding: 4em 0;
 			}
 
 		/* Copyright */
 
 			#copyright {
-				padding: 3em 0 0 0;
+				padding: 2em 0 0 0;
 				margin: 4em 0 0 0;
 			}
 
@@ -1988,13 +1990,13 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 40px 0;
+				padding: 3em 0;
 			}
 
 		/* Footer */
 
 			#footer-wrapper {
-				padding: 40px 0;
+				padding: 2em 0;
 			}
 
 		/* Copyright */
