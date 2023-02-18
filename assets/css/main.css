@@ -1544,9 +1544,9 @@ input, select, textarea {
 			left: 40px;
 			top: 0;
 			color: #fff;
-			font-size: 2.4em;
+			font-size: 1.3em;
 			letter-spacing: 1px;
-			line-height: 86px;
+			line-height: 90px;
 			text-transform: capitalize;
 		}
 
@@ -1559,7 +1559,7 @@ input, select, textarea {
 			position: absolute;
 			right: 40px;
 			top: 1px;
-			line-height: 84px;
+			line-height: 90px;
 			text-transform: capitalize;
 			font-size: 1.3em;
 			letter-spacing: 1px;
