@@ -43,6 +43,23 @@
 							<div class="col-12">
 
 								<section>
+									<h2> A photometric and multiplicity study of young brown dwarfs in the Taurus star formation region with HST </h2>
+									<p> I am conducting a direct imaging survey of young brown dwarfs in the Taurus star formation region. The data were taken with HST.
+									    I am detecting potential companions of these objects.
+										
+									</p>
+
+						                <section>
+									
+								<section>
+									<h2>An extremely wide-orbit exoplanet candidate imaged around two enigmatic stars</h2>
+									<p>I detected a low-mass planet candidate (3-5 Mj) located more than 760 au from its central stars. 
+									The central star was resolved to be a closely separated binary. This work was submitted. More details in the future.
+									</p>
+
+								</section>
+
+								<section>
 									<h2>Weather on brown dwarfs - a near-infrared variability survey of young planetary-mass objects</h2>
 									<p>Variability is common in brown dwarfs. As they rotate, inhomogeneous atmospheric structures can be probed by variability monitoring.
 									   Young brown dwarfs share similar mass, temperature and age with direct-imaged exoplanets. 
@@ -54,16 +71,22 @@
 									   I constrained the variability rate of young T dwarfs for the first time and found that young T dwarfs are also more likely to be variable than field T dwarfs.
 									   Both field and young samples have higher variability rates at the L/T transition than outside the L/T transition.
 									   This work supports the critical role of surface gravity on the atmospheric structures of brown dwarfs and planetary-mass objects.
-									   This work was published in <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.6624L/abstract" target="_blank">Liu et al.2024.</a>
+									   This work was published in <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.6624L/abstract" target="_blank">Liu et al.2024</a>.
 										
 									</p>
 								</section>
 
 								<section>
-									<h2>TRAP for vAPP</h2>
-									<p>TRAP is a temporal systematics model for direct detection of exoplanets (Samland et al.2021). The vector Apodizing Phase Plate (vAPP) is a pupil-plane coronagraph that uses liquid crystals and direct writing techniques (Snik et al.2012; Otten et al.2014). Depending on the design, it can produce a dark hole with a certain shape in its point spread function (PSF), where is easier to search for exoplanets.
-										We apply the TRAP algorithm to two types of vAPP datasets, gvAPP180 which produces two PSFs with two 180-degree dark holes and dgvAPP360 which produces one PSF with a 360-degree dark hole.
-										<!-- We provide examples of how to select reference pixels in the vAPP datasets and find that TRAP can achieve S/N consistent with the previous best algorithm implemented on the dgvAPP360 dataset and higher S/N than ADI which achieves the highest S/N on the gvAPP180 dataset previously. -->
+									<h2>TRAP for vAPP - Applying a temporal systematics model to vector Apodizing Phase Plate coronagraphic data</h2>
+									<p>The vector Apodizing Phase Plate (vAPP) is a pupil-plane coronagraph that produces a dark hole with a certain shape in its point spread function (PSF).
+									   The unconventional and non-axisymmetrical PSF arising from the phase modification applied by this coronagraph presents a special challenge to post-processing techniques.
+									   To develop algorithms for the vAPP coronagraphic data, I implemented a temporal systematics model, TRAP (Samland et al.2021).
+									   I applied the TRAP algorithm to two types of vAPP datasets, gvAPP180 which produces two complementary PSFs with two 180-degree dark holes and dgvAPP360 which produces one PSF with a 360-degree dark hole.
+									   The property of TRAP using non-local reference pixels combined with the two PSFs of gvAPP180 produces plenty of freedom to select reference pixels to build the noise model. 
+									   I found that the systematic noise between the two D-shaped PSFs is not as temporally associated as expected. 
+									   Conversely, a significant number of systematic noise sources are shared by the dark hole and the bright side in the same PSF. 
+									   We should choose reference pixels from the same PSF when reducing the dgvAPP360 dataset or the gvAPP180 dataset with TRAP. In these datasets, TRAP achieves results consistent with previous best detections, with an improvement of 43% for companion detection in the gvAPP180 dataset compared to cADI.
+									   This work was published in <a href="https://ui.adsabs.harvard.edu/abs/2023A%26A...674A.115L/abstract" target="_blank">Liu et al.2023</a>.
 									</p>
 								</section>
 
